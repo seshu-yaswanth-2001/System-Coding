@@ -1,0 +1,65 @@
+.folder-container {
+    width: 100%;
+    max-width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.folder {
+    margin-top: 6px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    width: 300px;
+    cursor: pointer;
+    color: black;
+}
+
+.folder > span {
+  margin: 0 5px;
+}
+
+.folder > div > button {
+  font-size: 15px;
+  background-color: white;
+}
+
+.nested-folder {
+    padding-left: 20px;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.file {
+  margin-top: 5px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputContainer>span{
+  margin-top: 5px;
+}
+
+.inputContainer__input {
+  margin: 6px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  border: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
